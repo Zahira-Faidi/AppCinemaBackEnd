@@ -1,6 +1,5 @@
 package ma.emsi.appcinema.entities;
 
-
 import java.util.Collection;
 
 import jakarta.persistence.*;
@@ -22,6 +21,5 @@ private int nombreSalles;
 private Collection<Salle> salles;
 @ManyToOne
 private Ville ville;
-
 
 }
